@@ -1,5 +1,7 @@
-class_name CodeToPassAround
-extends Script
+## The base class for scripts used by GiftBoxResourceBase.
+
+class_name BaseOfCodeToPassAround
+extends Resource
 
 
 static func someStaticFunc() -> void:
@@ -8,3 +10,7 @@ static func someStaticFunc() -> void:
 
 func someInstanceFunc() -> void:
 	print(str(self, " someInstanceFunc()"))
+
+
+func _init() -> void:
+	pass

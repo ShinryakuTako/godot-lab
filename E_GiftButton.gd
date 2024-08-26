@@ -1,3 +1,5 @@
+## Takes and opens a GiftBox and runs the code it contains.
+
 extends Button
 
 

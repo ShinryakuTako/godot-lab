@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="GiftBoxResourceBase" load_steps=3 format=3 uid="uid://c6p0o5pgewohl"]
 
-[ext_resource type="Script" path="res://GiftBoxResourceBase.gd" id="1_efb0r"]
-[ext_resource type="Script" path="res://SubclassOfCodeToPassAround.gd" id="2_5fjpb"]
+[ext_resource type="Script" path="res://A_GiftBoxResourceBase.gd" id="1_efb0r"]
+[ext_resource type="Script" path="res://C_SubclassOfCodeToPassAround.gd" id="2_5fjpb"]
 
 [resource]
 script = ExtResource("1_efb0r")
