@@ -4,6 +4,3 @@ class_name GiftBoxResourceBase
 extends Resource
  
 @export var surprise: BaseOfCodeToPassAround
-
-func _init() -> void:
-    pass

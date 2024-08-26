@@ -3,8 +3,8 @@
 extends Button
 
 
-@export var gift: GiftBoxResourceBase
+@export var giftBox: GiftBoxResourceBase
 
 
 func _on_pressed() -> void:
-	print(str(gift.surprise))
+	print(str(giftBox.surprise))
