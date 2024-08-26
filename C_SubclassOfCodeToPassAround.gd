@@ -6,3 +6,4 @@ extends BaseOfCodeToPassAround
 
 func _init() -> void:
 	pass
+
