@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://p1bnin3oeira"]
+[gd_scene load_steps=4 format=3 uid="uid://p1bnin3oeira"]
 
 [ext_resource type="Script" path="res://Lab.gd" id="1_qmwxg"]
 [ext_resource type="Script" path="res://GiftButton.gd" id="2_px8i3"]
+[ext_resource type="Resource" uid="uid://c6p0o5pgewohl" path="res://GiftResource.tres" id="3_adqdm"]
 
 [node name="Lab" type="Node2D"]
 script = ExtResource("1_qmwxg")
@@ -13,5 +14,6 @@ offset_right = 256.0
 offset_bottom = 128.0
 text = "Open Gift!"
 script = ExtResource("2_px8i3")
+gift = ExtResource("3_adqdm")
 
 [connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
