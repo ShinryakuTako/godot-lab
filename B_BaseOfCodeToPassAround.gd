@@ -12,5 +12,5 @@ func someInstanceFunc() -> void:
 	print(str(self, " someInstanceFunc()"))
 
 
-func _init() -> void:
-	pass
+# func _init() -> void:
+# 	pass

@@ -9,22 +9,24 @@ extends Button
 func _on_pressed() -> void:
 	print(str("Button _on_pressed()\n"))
 	
+	print(str("BaseOfCodeToPassAround: ", BaseOfCodeToPassAround))
+	print(str("SubclassOfCodeToPassAround: ", SubclassOfCodeToPassAround))
+
+	print("\n")
+
 	print(str("giftBox: ", giftBox))
 	print(str("giftBox.surprise: ", giftBox.surprise))
 	print(str("typeof(giftBox.surprise): ", typeof(giftBox.surprise)))
 
-	print("\n")
-
-	print("Calling giftBox.surprise.someStaticFunc()…")
+	print("\nCalling giftBox.surprise.someStaticFunc()…")
 	giftBox.surprise.someStaticFunc()
 
-	print("\n")
-
-	print("Calling giftBox.surprise.someInstanceFunc()…")
+	print("\nCalling giftBox.surprise.someInstanceFunc()…")
 	giftBox.surprise.someInstanceFunc()
-
+	
 	print("\n")
 
-	
-	print(str("BaseOfCodeToPassAround: ", BaseOfCodeToPassAround))
-	print(str("SubclassOfCodeToPassAround: ", SubclassOfCodeToPassAround))
+	# Should cause errors:
+
+	print("\nCalling giftBox.surprise.nonExistentFunc()…")
+	giftBox.surprise.nonExistentFunc()

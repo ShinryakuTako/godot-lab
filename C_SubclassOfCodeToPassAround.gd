@@ -4,6 +4,14 @@ class_name SubclassOfCodeToPassAround
 extends BaseOfCodeToPassAround
 
 
-func _init() -> void:
-	pass
+static func someStaticFunc() -> void:
+	print(str("someStaticFunc() overridden in SubclassOfCodeToPassAround"))
+
+
+func someInstanceFunc() -> void:
+	print(str(self, " someInstanceFunc() overridden by SubclassOfCodeToPassAround"))
+
+
+# func _init() -> void:
+# 	pass
 
