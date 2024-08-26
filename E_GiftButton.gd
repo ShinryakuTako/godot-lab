@@ -7,4 +7,6 @@ extends Button
 
 
 func _on_pressed() -> void:
-	print(str(giftBox.surprise))
+	print(str("giftBox: ", giftBox))
+	print(str("giftBox.surprise: ", giftBox.surprise))
+	
