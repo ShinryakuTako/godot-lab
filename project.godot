@@ -11,5 +11,6 @@ config_version=5
 [application]
 
 config/name="Lab"
+run/main_scene="res://Lab.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
